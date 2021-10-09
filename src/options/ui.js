@@ -1,5 +1,3 @@
-// import browser from 'webextension-polyfill';
-
 import optionsStorage from './storage.js';
 
 optionsStorage.syncForm('#options-form');

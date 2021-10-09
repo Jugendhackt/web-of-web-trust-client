@@ -9,6 +9,16 @@
     "chrome_style": true
   },
   "permissions": [
-    "storage"
-  ]
+    "storage",
+    "tabs",
+    "notifications"
+  ],
+  "background": {
+    "scripts": [
+      "content/main.js"
+    ]
+  },
+  "icons": {
+    "512": "media/icon-512.png"
+  }
 }

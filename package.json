@@ -6,6 +6,7 @@
   "license": "MIT",
   "devDependencies": {
     "@parcel/config-webextension": "^2.0.0-rc.0",
+    "@parcel/transformer-image": "2.0.0-rc.0",
     "parcel": "^2.0.0-rc.0"
   },
   "scripts": {
@@ -13,6 +14,7 @@
     "watch": "parcel watch src/manifest.json --no-content-hash --dist-dir dist --no-cache --detailed-report 0"
   },
   "dependencies": {
-    "webext-options-sync": "^3.0.0"
+    "webext-options-sync": "^3.0.0",
+    "webextension-polyfill": "^0.8.0"
   }
 }
