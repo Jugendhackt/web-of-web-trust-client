@@ -4943,6 +4943,18 @@ weak-lru-cache@^1.0.0:
   resolved "https://registry.yarnpkg.com/weak-lru-cache/-/weak-lru-cache-1.1.2.tgz#a909a97372aabdfbfe3eb33580af255b3b198834"
   integrity sha512-Bi5ae8Bev3YulgtLTafpmHmvl3vGbanRkv+qqA2AX8c3qj/MUdvSuaHq7ukDYBcMDINIaRPTPEkXSNCqqWivuA==
 
+webext-detect-page@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/webext-detect-page/-/webext-detect-page-3.0.2.tgz#a7431b0e58830b091d9c77fb862b20d5a7e578c2"
+  integrity sha512-CdU8W+6g05YAYrkdOfqUNrG9A4AybemgPGC+xeKnffRO4tbBrdYYy77qO0jlj7Udw9HXcE2xeFlEoW1ywjwTZw==
+
+webext-options-sync@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/webext-options-sync/-/webext-options-sync-3.0.0.tgz#5a8c103922a3e3fd52106c528703684d27312a5c"
+  integrity sha512-JOlKQSESBzqEwXmSWZi0/R4PoAfy42I1nHzX323P8slEbJpRdUDJByo7OUq0ySbzwmHXXNg6YxAL5ALMZ3JU7A==
+  dependencies:
+    webext-detect-page "^3.0.2"
+
 webidl-conversions@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-4.0.2.tgz#a855980b1f0b6b359ba1d5d9fb39ae941faa63ad"

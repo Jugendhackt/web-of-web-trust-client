@@ -1,0 +1,25 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Options</title>
+
+<form id="options-form" class="detail-view-container">
+    <h3>Weights</h3>
+    <div class="weight-picker">
+        <div class="weight-inputs">
+            <label class="weight-input">
+                <span>A</span>
+                <input type="range" min="0" max="3" name="weightA">
+                <input disabled type="number" name="weightA" min="0" max="3">
+            </label>
+            <br>
+            <label class="weight-input">
+                <span>B</span>
+                <input type="range" min="0" max="3" name="weightB">
+                <input disabled type="number" name="weightB" min="0" max="3">
+            </label>
+        </div>
+        <div class="weight-output"></div>
+    </div>
+</form>
+
+<script src="ui.js" type="module"></script>
