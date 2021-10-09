@@ -1,0 +1,14 @@
+{
+  "name": "web-of-web-trust",
+  "version": "0.0.1",
+  "repository": "git@github.com:Jugendhackt/web-of-web-trust-client.git",
+  "author": "Web of Web Trust Contributors",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/config-webextension": "^2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0"
+  },
+  "scripts": {
+    "build": "parcel build src/manifest.json --no-content-hash --no-source-maps --dist-dir dist --no-cache --detailed-report 0"
+  }
+}
