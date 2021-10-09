@@ -11,7 +11,13 @@
   "permissions": [
     "storage",
     "tabs",
-    "notifications"
+    "notifications",
+    "https://vpapp.e1mo.de/*",
+    "https://google.com/*",
+    "https://*.google.com/*",
+    "https://jsonplaceholder.typicode.com/*",
+    "https://pad.medialepfade.net/*",
+    "<all_urls>"
   ],
   "background": {
     "scripts": [
