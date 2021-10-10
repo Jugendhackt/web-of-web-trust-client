@@ -10,7 +10,7 @@ export default class ApiClient {
     let normal_domain = domain;
     domain = this.sha1(domain, 2)
     let _url = this.apiServer;
-    _url += "/domain"
+    _url += "/domain/"
 
     console.log(_url)
 
