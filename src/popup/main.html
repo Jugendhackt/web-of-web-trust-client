@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <style>
-        h4 {
-            background-color: red;
-            color: black;
-            padding: 1em;
-            font-family: sans-serif;
-        }
-        p {
-            text-align: center;
-            color: red;
-        }
-        h4 {
-            text-align: center
-        }
-    </style>
+  <meta charset="utf-8"/>
+  <style>
+      .untrusted {
+          background-color: red;
+          display: block;
+      }
+      .trusted {
+        background-color: green;
+          display: none;
+      }
+      p {
+          text-align: center;
+          color: red;
+      }
+      h4 {
+          text-align: center;
+          color: black;
+          padding: 1em;
+          font-family: sans-serif;
+      }
+  </style>
 </head>
 <body>
-    <h4>Diese Website ist nicht vertrauens w&uuml;rdig!</h4>
+    <h4 id="domain-not-trusted" class="untrusted">Diese Website ist eher nicht vertrauens w&uuml;rdig!</h4>
+    <h4 id="domain-trusted" class="trusted">Diese Website ist eher vertrauens w&uuml;rdig!</h4>
+    Dieses Medium hat <b>420</b> Rügen bekommen
+    <progress id="bar" value="0" max="100"></progress>
     <script type="module" src="main.js"></script>
 </body>
 </html>
